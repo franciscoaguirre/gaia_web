@@ -35,3 +35,12 @@ yarn-debug.log*
 
 # Ignore coverage folder
 /coverage/*
+
+# Vim
+*.swp
+
+# Database
+database.yml
+
+# OS specific
+.DS_Store
