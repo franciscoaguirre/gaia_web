@@ -1,1 +1,24 @@
+@import 'fonts';
+
+$theme-colors: (
+  'primary': #e9e99d,
+  'primary-light': #f9f6d3,
+  'secondary': #b1dfc1,
+  'tertiary': #a76fbb,
+  'cuaternary': #eea5a9,
+  'quinary': #ee8a4d,
+);
+
 @import '~bootstrap/scss/bootstrap';
+
+a {
+  color: theme-color('secondary');
+
+  &:hover {
+    border-bottom: 1px solid theme-color('secondary');
+    color: theme-color('secondary');
+    text-decoration: none;
+  }
+}
+
+@import 'header';

@@ -1,0 +1,26 @@
+#gaia-header {
+  background-color: theme-color('primary-light');
+  height: 70px;
+
+  .logo {
+    height: 38px;
+  }
+
+  .header-links a {
+    margin-right: 10px;
+  }
+
+  .cart {
+    img {
+      height: 25px;
+    }
+    
+    .counter {
+      color: theme-color('secondary');
+      position: absolute;
+      left: 60%;
+      top: 25%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
