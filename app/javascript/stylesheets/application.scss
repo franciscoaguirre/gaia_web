@@ -7,6 +7,7 @@ $theme-colors: (
   'tertiary': #a76fbb,
   'cuaternary': #eea5a9,
   'quinary': #ee8a4d,
+  'water': #84cbcb,
 );
 
 @import '~bootstrap/scss/bootstrap';
@@ -22,3 +23,5 @@ a {
 }
 
 @import 'header';
+@import 'footer';
+@import 'map';
