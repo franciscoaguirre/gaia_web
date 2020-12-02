@@ -11,3 +11,14 @@
     height: 200px;
   }
 }
+
+.product-details {
+  .description {
+    font-size: 30px;
+  }
+
+  .product-image {
+    height: 300px;
+    object-fit: contain;
+  }
+}

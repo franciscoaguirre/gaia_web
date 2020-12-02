@@ -1,8 +1,20 @@
-.d-flex.flex-column.align-items-center
-  = image_tag @product.pictures[0].url, class: 'w-75'
+= render 'shared/top_background.html.haml', title: @product.name
 
-  %button.add-to-cart.d-block
-    Añadir al carrito
+.product-details.row.no-gutters.justify-content-center
+  %p.description.text-tertiary.px-3.d-none.d-lg-block.col-lg-7
+    = @product.description
 
-  %h4.price
+  = image_tag @product.pictures[0].url, class: 'product-image col-12 col-lg-5'
+
+  %h3.price.text-tertiary.text-center.col-12.col-lg-7
     = "#{t('activerecord.attributes.product.price')}: #{@product.price}"
+
+  .col.d-none.d-lg-block
+
+  %h1.carousel.col-lg-7.col-12
+
+  .row.no-gutters.justify-content-center.col-12.col-lg-5
+    %button.add-to-cart.btn.btn-secondary.btn-lg.rounded.mb-3
+      Añadir al carrito
+
+= render 'shared/bottom_background.html.haml'
