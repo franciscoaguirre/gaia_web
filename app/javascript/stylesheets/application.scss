@@ -25,6 +25,8 @@ a {
 $header-height: 70px;
 $footer-height: 70px;
 
+@import 'node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
+@import 'hamburger';
 @import 'header';
 @import 'footer';
 @import 'map';

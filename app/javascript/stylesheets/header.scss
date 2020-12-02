@@ -24,3 +24,14 @@
     }
   }
 }
+
+#hamburger-menu {
+  background-color: theme-color('primary-light');
+  height: calc(100vh - #{$header-height});
+  width: 100%;
+  z-index: 1;
+
+  a {
+    margin: 15px 0;
+  }
+}

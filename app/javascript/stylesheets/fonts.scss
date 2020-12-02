@@ -18,11 +18,11 @@
   src: url('../fonts/Mithella-Bold.otf');
 }
 
-h1, h2 {
+h1, .h1, h2, .h2 {
   font-family: 'Grandstander Clean';
 }
 
-h3, h4, h5, h6 {
+h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: 'Mithella Bold';
 }
 
