@@ -1,0 +1,34 @@
+#top-background {
+  img {
+    min-height: 120px;
+
+    @include media-breakpoint-up(lg) {
+      height: 70px;
+      object-fit: fill !important;
+    }
+  }
+
+  .screen-title {
+    left: 3%;
+    position: absolute;
+    top: 3%;
+
+    @include media-breakpoint-up(lg) {
+      top: 15%;
+    }
+  }
+}
+
+#bottom-background {
+  img {
+    min-height: 70px;
+  }
+}
+
+#top-background, #bottom-background {
+  img {
+    object-fit: cover;
+    object-position: left;
+    width: 100%;
+  }
+}

@@ -4,6 +4,10 @@
 
   .logo {
     height: 38px;
+
+    &:hover {
+      border: 0;
+    }
   }
 
   .header-links a {

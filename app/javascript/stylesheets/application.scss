@@ -22,11 +22,18 @@ a {
   }
 }
 
+p {
+  color: theme-color('tertiary');
+  padding: 0 15px;
+}
+
 $header-height: 70px;
 $footer-height: 70px;
 
 @import 'node_modules/hamburgers/_sass/hamburgers/hamburgers.scss';
 @import 'hamburger';
 @import 'header';
+@import 'backgrounds';
 @import 'footer';
 @import 'map';
+@import 'purpose';

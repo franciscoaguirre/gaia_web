@@ -1,5 +1,16 @@
-= render 'shared/header.html.haml'
+.d-flex.flex-column.justify-content-between
+  = render 'shared/top_background.html.haml', title: t('our_purpose')
 
+  %main#our-purpose
+    %p La esencia de Gaia se define de acuerdo con su propósito. El proyecto surge al notar como, en un mundo globalizado, los niños uruguayos suelen conocer animales de todo el mundo, pero no están involucrados con la fauna local.
 
+    %p
+      Los animales de la región no suelen ser publicitados como lo son el león, zebra o el oso panda.
 
-= render 'shared/footer.html.haml'
+    %p
+      Ante esto, Gaia busca transmitir y promover el valor de la fauna y flora de cada región de una manera educativa y divertida.
+
+    %p
+      Nos definimos como un mundo ya que buscamos estar presentes en todos los círculos de interés del niño - sus rutinas de juego, su familia y su entorno educativo –.
+
+  = render 'shared/bottom_background.html.haml'
