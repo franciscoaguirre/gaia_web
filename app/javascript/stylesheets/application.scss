@@ -22,6 +22,9 @@ a {
   }
 }
 
+$header-height: 70px;
+$footer-height: 70px;
+
 @import 'header';
 @import 'footer';
 @import 'map';

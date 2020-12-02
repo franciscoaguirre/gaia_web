@@ -1,6 +1,12 @@
+= javascript_pack_tag 'map.js'
+
 = render 'shared/header.html.haml'
 
-#map.row.no-gutters.justify-content-center.align-items-center
-  = image_pack_tag 'south_america.png', class: 'py-5'
+#map-container.row.no-gutters.justify-content-center.align-items-center
+  #map.py-5
+    = image_pack_tag 'south_america.png', id: 'map-image' 
+    = image_pack_tag 'animals/carpincho_peluche.png', id: 'carpincho', class: 'animal', title: 'Carpincho'
+    = image_pack_tag 'animals/coati_peluche.png', id: 'coati', class: 'animal', title: 'Coati'
+    = image_pack_tag 'animals/tamandua_peluche.png', id: 'tamandua', class: 'animal', title: 'Tamandua'
 
 = render 'shared/footer.html.haml'

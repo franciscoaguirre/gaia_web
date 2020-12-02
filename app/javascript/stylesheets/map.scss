@@ -1,7 +1,39 @@
-#map {
+#map-container {
   background-color: theme-color('water');
+  height: calc(100vh - #{$header-height} - #{$footer-height});
+}
 
-  img {
-    height: 600px;
+#map {
+  height: 100%;
+  position: relative;
+
+  .animal {
+    height: 10%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    &:hover {
+      height: 11%;
+    }
   }
+}
+
+#map-image {
+  height: 100%;
+  width: 100%;
+}
+
+#carpincho {
+	left: 65%;
+	top: 60%;
+}
+
+#coati {
+  left: 46%;
+  top: 56%;
+}
+
+#tamandua {
+  left: 50%;
+  top: 66%;
 }
