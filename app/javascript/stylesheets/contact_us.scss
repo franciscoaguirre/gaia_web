@@ -1,0 +1,13 @@
+#contact-us {
+  .contact-form {
+    @include media-breakpoint-up(lg) {
+      order: 2;
+    }
+  }
+
+  .contact-information {
+    @include media-breakpoint-up(lg) {
+      order: 1;
+    }
+  }
+}

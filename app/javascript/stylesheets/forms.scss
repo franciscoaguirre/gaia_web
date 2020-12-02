@@ -1,0 +1,21 @@
+.form-group {
+  margin-left: 10px;
+  margin-right: 10px;
+
+  .form-control {
+    background: none;
+    border: none;
+    border-bottom: 1px solid theme-color('tertiary');
+    border-radius: 0;
+    color: theme-color('tertiary');
+
+    &:hover {
+      background: none;
+    }
+
+    &::placeholder {
+      color: theme-color('tertiary');
+    }
+  }
+}
+

@@ -3,6 +3,11 @@ es:
   store: 'Tienda'
   contact_us: 'Contáctanos'
   blog: 'Blog'
+  name: 'Nombre'
+  email: 'Email'
+  phone: 'Telefono'
+  write_message: 'Escribe tu mensaje aqui...'
+  send: 'Enviar'
   activerecord:
     models:
       product: Product

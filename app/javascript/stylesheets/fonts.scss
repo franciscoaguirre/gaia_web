@@ -19,17 +19,13 @@
 }
 
 h1, .h1, h2, .h2 {
-  font-family: 'Grandstander Clean';
+  font-family: 'Grandstander Clean' !important;
 }
 
-h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  font-family: 'Mithella Bold';
+h3, .h3, h4, .h4, h5, .h5, h6, .h6, a, button {
+  font-family: 'Mithella Bold' !important;
 }
 
-p {
-  font-family: 'Geosans Light';
-}
-
-a {
-  font-family: 'Mithella Bold';
+p, input, textarea {
+  font-family: 'Geosans Light' !important;
 }
