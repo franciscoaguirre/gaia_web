@@ -1,0 +1,13 @@
+.product {
+  &:nth-child(2n + 1) {
+    background-color: theme-color('secondary');
+  }
+
+  &:nth-child(2n) {
+    background-color: theme-color('primary');
+  }
+
+  img {
+    height: 200px;
+  }
+}

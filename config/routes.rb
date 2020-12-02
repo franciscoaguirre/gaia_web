@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get 'our_purpose', to: 'purpose#index'
   get 'contact_us', to: 'contact#index'
 
-  resources :products, only: [:index, :show]
+  resources :products, only: [:index, :show, :create]
 end

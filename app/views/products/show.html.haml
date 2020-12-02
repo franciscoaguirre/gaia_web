@@ -1,0 +1,8 @@
+.d-flex.flex-column.align-items-center
+  = image_tag @product.pictures[0].url, class: 'w-75'
+
+  %button.add-to-cart.d-block
+    Añadir al carrito
+
+  %h4.price
+    = "#{t('activerecord.attributes.product.price')}: #{@product.price}"

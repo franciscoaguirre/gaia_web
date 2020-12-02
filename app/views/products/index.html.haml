@@ -1,0 +1,7 @@
+= render 'shared/top_background.html.haml', title: t('store')
+
+.products.row.no-gutters.justify-content-around
+  - @products.each do |product|
+    = render product
+
+= render 'shared/bottom_background.html.haml'

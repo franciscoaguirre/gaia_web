@@ -3,3 +3,9 @@ es:
   store: 'Tienda'
   contact_us: 'Contáctanos'
   blog: 'Blog'
+  activerecord:
+    models:
+      product: Product
+    attributes:
+      product:
+        price: 'Precio'
