@@ -4,7 +4,7 @@
   %p.description.text-tertiary.px-3.d-none.d-lg-block.col-lg-7
     = @product.description
 
-  = image_tag @product.pictures[0].url, class: 'product-image col-12 col-lg-5'
+  = image_tag @product.pictures[0].url, class: 'product-image col-12 col-lg-5', alt: @product.name
 
   %h3.price.text-tertiary.text-center.col-12.col-lg-7
     = "#{t('activerecord.attributes.product.price')}: #{@product.price}"
