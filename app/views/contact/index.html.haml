@@ -1,31 +1,32 @@
 = render 'shared/top_background.html.haml', title: t('contact_us')
 
-#contact-us.row.no-gutters.align-items-center
-  .contact-form.col-12.col-lg-8.mb-5.row.no-gutters.justify-content-center
-    %form.col-lg-6
-      .form-group
-        %input.form-control{placeholder: t('name'), name: 'name', type: 'text'}
-      .form-group
-        %input.form-control{placeholder: t('email'), name: 'email', type: 'email'}
-      .form-group
-        %input.form-control{placeholder: t('phone'), name: 'phone'}
-      .form-group
-        %textarea.form-control{placeholder: t('write_message'), name: 'message'}
-        .row.no-gutters.justify-content-center
-          %button.col-8.btn.btn-secondary.btn-lg.rounded.mt-5
-            = t('send')
+.full-height-wrapper.d-flex.flex-column.justify-content-center
+  #contact-us.row.no-gutters.align-items-center
+    .contact-form.col-12.col-lg-8.mb-5.row.no-gutters.justify-content-center
+      %form.col-lg-6
+        .form-group
+          %input.form-control{placeholder: t('name'), name: 'name', type: 'text'}
+        .form-group
+          %input.form-control{placeholder: t('email'), name: 'email', type: 'email'}
+        .form-group
+          %input.form-control{placeholder: t('phone'), name: 'phone'}
+        .form-group
+          %textarea.form-control{placeholder: t('write_message'), name: 'message'}
+          .row.no-gutters.justify-content-center
+            %button.col-8.btn.btn-secondary.btn-lg.rounded.mt-5
+              = t('send')
 
-  .contact-information.col-12.col-lg-4.row.no-gutters.justify-content-around.align-items-center
-    .whatsapp.col-12.col-md-4.col-lg-12.row.no-gutters.justify-content-center.mb-5
-      .row.no-gutters.justify-content-center.align-items-center.col-12
-        %h4.text-tertiary.mx-2 Charlá con nosotros
-      .row.no-gutters.justify-content-start.align-items-center.mb-3.mx-4
-        = image_pack_tag 'social_links/whatsapp.png', class: 'mr-3'
-        %h5.text-tertiary.m-0 09X XXX XXX
-    .email.col-12.col-md-4.col-lg-12.row.no-gutters.justify-content-center.mb-5
-      .row.no-gutters.col-12.justify-content-center
-        %h4.text-tertiary.mx-2 Escribinos
-      .row.no-gutters
-        %p.text-tertiary info@mundogaia.com
+    .contact-information.col-12.col-lg-4.row.no-gutters.justify-content-around.align-items-center
+      .whatsapp.col-12.col-md-4.col-lg-12.row.no-gutters.justify-content-center.mb-5
+        .row.no-gutters.justify-content-center.align-items-center.col-12
+          %h4.text-tertiary.mx-2 Charlá con nosotros
+        .row.no-gutters.justify-content-start.align-items-center.mb-3.mx-4
+          = image_pack_tag 'social_links/whatsapp.png', class: 'mr-3'
+          %h5.text-tertiary.m-0 09X XXX XXX
+      .email.col-12.col-md-4.col-lg-12.row.no-gutters.justify-content-center.mb-5
+        .row.no-gutters.col-12.justify-content-center
+          %h4.text-tertiary.mx-2 Escribinos
+        .row.no-gutters
+          %p.text-tertiary info@mundogaia.com
 
 = render 'shared/bottom_background.html.haml'
