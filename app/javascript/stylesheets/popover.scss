@@ -1,0 +1,25 @@
+.popover {
+  background-color: theme-color('primary-light');
+  border: none;
+
+  .arrow {
+    &::after {
+      border-top-color: theme-color('primary-light') !important;
+    }
+
+    &::before {
+      border: none;
+    }
+  }
+
+  .popover-header {
+    background: none;
+    border: none;
+    color: theme-color('secondary');
+    font-size: calc(1.3rem + 0.6vw);
+  }
+
+  .popover-body {
+    width: 200px;
+  }
+}

@@ -1,3 +1,7 @@
 .btn-secondary {
   color: theme-color('primary-light');
+
+  &:hover {
+    color: theme-color('primary');
+  }
 }

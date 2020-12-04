@@ -3,6 +3,6 @@
 #map-container.row.no-gutters.justify-content-center.align-items-center
   #map.py-5
     = image_pack_tag 'south_america.png', id: 'map-image' 
-    = image_pack_tag 'animals/carpincho_peluche.png', id: 'carpincho', class: 'animal', title: 'Carpincho'
-    = image_pack_tag 'animals/coati_peluche.png', id: 'coati', class: 'animal', title: 'Coati'
-    = image_pack_tag 'animals/tamandua_peluche.png', id: 'tamandua', class: 'animal', title: 'Tamandua'
+    = image_pack_tag 'animals/carpincho_peluche.png', id: 'carpincho', class: 'animal', title: 'Carpincho', tabindex: '-1', data: { toggle: 'popover', content: "<a class='btn btn-secondary rounded' href='#{product_path(@carpincho)}'>Comprar</a>" }
+    = image_pack_tag 'animals/coati_peluche.png', id: 'coati', class: 'animal', title: 'Coati', tabindex: '-1', data: { toggle: 'popover', content: "<a class='btn btn-secondary rounded' href='#{product_path(@coati)}'>Comprar</a>" }
+    = image_pack_tag 'animals/tamandua_peluche.png', id: 'tamandua', class: 'animal', title: 'Tamandua', tabindex: '-1', data: { toggle: 'popover', content: "<a class='btn btn-secondary rounded' href='#{product_path(@tamandua)}'>Comprar</a>" }
